@@ -1,0 +1,2 @@
+Windows + X > Prompt de Comando (Admin) >
+	mklink /d C:\Users\andre\Documents\gPodder C:\Users\andre\Dropbox\Aplicativos\Windows\Instalados\gpodder-3.9.3-win32\downloads

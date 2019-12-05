@@ -1,0 +1,20 @@
+Criar pastas:
+	C:\desenvolvimento
+	C:\desenvolvimento\ferramentas
+	C:\desenvolvimento\projetos
+
+Windows Explorer >
+	Aumentar largura do painel de navegação
+	Botão direito nas pastas a seguir > Fixar no Acesso rápido:
+		C:\desenvolvimento
+		C:\Users\andre\Dropbox\IFSP
+		C:\Users\andre\Dropbox\Disciplinas\[disciplinas desejadas]
+		C:\Users\andre\Dropbox\Roteiros de instalação e configuração
+		Temp (T:)
+
+Menu Iniciar > Desafixar de Iniciar:
+	...
+
+Barra de tarefas > Botão direito e Desafixar da barra de tarefas:
+	Loja
+	Email

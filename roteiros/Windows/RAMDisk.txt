@@ -1,0 +1,18 @@
+Ícone "+" verde >
+	Tamanho: 6144MB
+	Letra da unidade: T:
+	Sistema de arquivos: NTFS
+	Criar pastas:
+		appdata-local-temp
+		cache-chrome
+		cache-firefox
+		windows-temp
+		gpodder-downloads
+	Avançado >
+		Rótulo do Volume: Temp
+
+Editar as variáveis de ambiente do sistema > Variáveis de ambiente... >
+	Variáveis de usuário para andre >
+		TEMP e TMP: T:\appdata-local-temp
+	Variáveis do sistema >
+		TEMP e TMP: T:\windows-temp

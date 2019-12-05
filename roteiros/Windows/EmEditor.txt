@@ -1,0 +1,32 @@
+Instalação >
+	Desabilitar tray icon
+
+Tools > Properties for All Configurations >
+	General >
+		Wrap by: Window Width
+		MARCAR Show Line Numbers
+	Marks >
+		MARCAR Show Tabs
+		MARCAR Show CR and LF with Different Marks
+		MARCAR Show Control Characters
+		MARCAR Show Indent Guides
+	Keyboard > (esta parte não adianta porque versão gratuita apaga isso)
+		Tirar Shift+Backspace com efeito de Delete:
+			Category: Edit
+			Commands: Delete
+			Current Keys: Shift+Backspace
+			Delete
+		Mudar Shift+Backspace para efeito de Backspace:
+			Commands: Delete Left Character
+			Press New Shortcut Key: (pressionar Shift+Backspace)
+			Assign
+	OK
+
+CTRL + Q (Quick Launch) >
+	downgrade, Enter
+	Are you sure (...)?: Sim, OK
+
+Botão direito no atalho do menu iniciar > Abrir local de arquivo >
+	Propriedades >
+		Tecla de atalho: Ctrl + Alt + E
+

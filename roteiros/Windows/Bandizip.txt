@@ -1,0 +1,14 @@
+Opções > Configurações (ou F5) >
+	Menu de contexto >
+		Menu de extração >
+			DESMARCAR:
+			 	- Extrair aqui
+				- Extrair para outra pasta
+				- Pré-visualizar ficheiro comprimido
+		Menu de compressão >
+			DESMARCAR:
+				- Comprimir para "NomeDoArquivo.7z"
+				- Comprimir arquivos individualmente para "NomeDoArquivo.zip"
+				- Comprimir arquivos(s)
+	Extração >
+		DESMARCAR Não fechar a janela de progresso após extração

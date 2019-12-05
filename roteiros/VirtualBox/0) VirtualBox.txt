@@ -1,0 +1,18 @@
+https://www.virtualbox.org/ >
+  Download VirtualBox 5.2 >
+    Windows Hosts
+
+Abrir
+Deixar tudo no padrão
+Deseja instalar este software de dispositivo?
+  DESMARCAR Sempre confiar em software da "Oracle Corporation"
+  Instalar
+
+Arquivo > Preferências >
+  Geral >
+    Pasta Padrão para Máquinas: (mudar se desejado)
+  Entrada > Máquina Virtual >
+    Combinação de Teclas do Hospedeiro >
+      Atalho: RIGHT ALT
+      OK
+

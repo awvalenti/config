@@ -1,0 +1,5 @@
+Python 2.7: https://www.python.org/downloads/
+PyGTK All-in-one: http://www.pygtk.org/downloads.html
+Astah: http://astah.net/com-announcement
+Gimp: https://www.gimp.org/
+Eclipse: http://www.eclipse.org/

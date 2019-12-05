@@ -1,0 +1,6 @@
+Substituir áudio do vídeo:
+ffmpeg.exe -i "video1.mp4" -i "audio_replace.m4a" -vcodec copy -acodec copy -map 0:0 -map 1:0 output.mp4
+  (https://superuser.com/questions/1116326/replace-audio-sync-save-all-to-a-new-video-file-vlc)
+
+Rotacionar vídeo: (rotate=0 ou 90 ou -90)
+ffmpeg -i input.mp4 -c copy -metadata:s:v:0 rotate=90 output.mp4

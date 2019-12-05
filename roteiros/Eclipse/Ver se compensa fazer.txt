@@ -1,0 +1,7 @@
+Java > Debug > Step filtering
+Java EE > Show View > Problems no lugar de Markers
+Ao autocompletar ArrayList, não preencher o tipo, já que Java 7 não exige
+	Java > Editor > Content Assist > Advanced >
+		Teria que descobrir qual dos itens seria mais apropriado usar.
+		Java Proposals (Task-Focused) e Java Proposals (Code Recommenders) fazem
+			desse jeito, não preenchendo o tipo ao fazer new ArrayList

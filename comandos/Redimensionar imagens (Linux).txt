@@ -1,0 +1,1 @@
+for arq in $(ls); do convert -resize 75% $arq $arq; done

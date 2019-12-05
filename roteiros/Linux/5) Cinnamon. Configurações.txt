@@ -1,0 +1,107 @@
+Menu > Configurações do sistema >
+	Fontes >
+		(opcional, útil para tela Full HD) Fator de escalonamento do texto: 1,5
+
+	Som >
+		Sons >
+			DESATIVAR Iniciando o Cinnamon
+
+	Idiomas >
+		MUDAR Portuguese, Portugal para Portuguese, Brazil
+		Aplicar em Todo o Sistema
+		REINICIAR COMPUTADOR
+		Atualizar pastas padrão para o idioma atual? >
+			Atualizar nomes
+
+	Gerenciamento de Energia >
+		Opções de energia >
+			Quando a tampa estiver fechada >
+				Usando fonte AC: Não fazer nada
+				Usando bateria: Não fazer nada
+		Opções extras >
+			ATIVAR Executar a ação de fechar a tampa mesmo com monitores externos ligados
+            Quando a bateria estiver criticamente baixa: Desligar o computador imediatamente
+			
+	Mouse e touchpad >
+		Touchpad >
+			(opcional) DESATIVAR Toque para clicar
+
+Menu >
+	Monitor do Sistema >
+		Recursos (o simples fato de clicar já vai definir esse painel como padrão) >
+			Aumentar altura
+
+Painel inferior:
+	Botão direito em Mozilla Firefox >
+		Remover
+
+	Botão direito em área vazia > Configurações do Painel >
+		Usar tamanho personalizado do painel >
+			Altura do painel: entre o meio e a ponta
+
+	Botão direito no relógio > Configurar... >
+		ATIVAR Usar um formato de data personalizado
+		Formato da data: %a, %d/%m | %H:%M
+
+	Botão direito na bateria > Configurar... >
+		Monitor: Mostrar a porcentagem e o tempo restante
+
+Mozilla Firefox >
+	Configurações > Preferências >
+		Downloads: Sempre perguntar onde salvar arquivos
+	Abrir mais de uma aba, fechar com ALT+F4 >
+		DESMARCAR Avisar quando eu tentar fechar várias abas
+		Fechar abas
+
+Nemo (Windows + E) >
+	Aumentar largura do painel esquerdo (dos diretórios)
+
+	(opcional) Aumentar tamanho da janela
+
+	Arrastar e soltar pastas no painel esquerdo para adicionar atalhos:
+		/tmp
+		Dropbox
+		Dropbox/IFSP
+		Dropbox/IFSP/Disciplinas/[disciplinas desejadas]
+
+	Botão direito em qualquer diretório >
+		Abrir com > Outro aplicativo... >
+			Atom, Adicionar à lista, OK
+
+Editor de texto (xed) >
+	Editar > Preferências >
+		Editor >
+			ATIVAR Exibir números de linha
+			ATIVAR Realçar a linha atual
+			ATIVAR Recuo automático
+			DESATIVAR Use espaços em vez de abas (tabulações, na verdade)
+
+Terminal >
+	Editar > Preferências >
+		AFAZER aumentar opacidade
+		AFAZER aumentar janela
+
+Dropbox >
+	Instalar (ver outro txt)
+	Fazer login
+	Pausar sincronização
+	Copiar arquivos do Dropbox de outro computador
+	Despausar sincronização
+
+Menu >
+	Google Chrome > Botão direito > Adicionar ao painel
+	Visual Studio Code > Botão direito > Adicionar ao painel
+
+Google Chrome >
+	MANTER Navegador padrão
+	DESMARCAR Enviar estatísticas de uso
+	Fazer login na conta
+
+GIMP >
+	Janelas >
+		Modo de janela única
+
+WPS Office (abrir qualquer documento, por exemplo) >
+	I Accept
+
+

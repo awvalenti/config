@@ -1,0 +1,38 @@
+1) Baixar
+
+https://www.eclipse.org/downloads/packages/
+
+
+2) Descomprimir
+
+Linux:
+	CTRL + ALT + T >
+		mkdir -p /home/andre/desenvolvimento/ferramentas/java
+		cd /home/andre/desenvolvimento/ferramentas/java
+		tar zxf ~/Downloads/eclipse-[versao].tar.gz
+		mv eclipse/ eclipse-[versao]
+
+3) Criar atalho
+
+Linux:
+	(Esta parte tem pequenas variações entre Cinnamon e XFCE)
+	Botão direito na área de trabalho > Novo lançador >
+		Name: Eclipse JEE Oxygen
+		Command: /home/andre/desenvolvimento/ferramentas/java/eclipse-[versao]/eclipse
+		Clicar no ícone do foguete:
+			CTRL + L
+			/home/andre/desenvolvimento/ferramentas/java/eclipse-[versao]/icon.xpm
+		OK
+		Would you like to add this launcher to the menu also?: Sim
+
+4) Especificar workspace
+
+Se quiser usar o pré-configurado, extrair o zip para /home/andre/desenvolvimento/workspace-[versao].
+
+Se quiser configurar do zero, ver outro roteiro explicando configuração.
+
+Abrir atalho >
+	Select a directory as workspace >
+		Workspace: /home/andre/desenvolvimento/workspace-[versao]
+		MARCAR Use this as the default and do not ask again
+		Launch

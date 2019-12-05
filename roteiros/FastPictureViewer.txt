@@ -1,0 +1,14 @@
+Menu >
+  Opções >
+    Exposição, etc. >
+      MARCAR Aceleração de placa gráfica (GPU)
+      MARCAR Disable RGB Histogram computations
+
+    Mouse, etc. >
+      MARCAR Inverter a direção de rolagem
+
+    Operações de arquivo >
+      DESMARCAR Navegação de sub-pasta
+
+    Diversos >
+      DESMARCAR Reabrir automaticamente a última pasta

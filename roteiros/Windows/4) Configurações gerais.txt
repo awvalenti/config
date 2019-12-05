@@ -1,0 +1,68 @@
+Botão direito na Área de Trabalho > Personalizar >
+  Cores >
+    Escolha seu modo padrão do Windows: Escuro
+    Escolha seu modo de aplicativo padrão: Escuro
+
+Windows + X, G (Gerenciador de Dispositivos) >
+	Bluetooth > Intel(R) Wireless Bluetooth(R) >
+		Driver > Atualizar driver > Pesquisar automaticamente
+
+Configurações > Dispositivos > Impressoras e scanners >
+	(verificar se está na rede IFSP-* e não na Visitantes)
+	Adicionar uma impressora ou scanner
+	Aguardar
+	A impressora que eu quero não está na lista >
+		MARCAR Adicionar uma impressora usando um endereço TCP/IP ou nome de host
+		Avançar
+		Nome do host ou endereço IP: 10.123.50.44
+		Nome da porta: (deixar vazio)
+		Avançar
+
+Iniciar > Configurações > Sistema > Tela >
+	Ajustar escala e layout >
+		Alterar o tamanho do texto, dos aplicativos e de outros itens: 150%
+
+Iniciar > "Luz noturna" >
+  Agendar luz noturna: ATIVADO
+	Definir horário > Ativar: 19h
+
+Configurações do Windows > Dispositivos > Touchpad >
+	Gestos com três dedos > Toques: Botão do meio do mouse
+
+Barra de tarefas >
+	Botão direito >
+		DESMARCAR Bloquear a barra de tarefas
+		Aumentar altura em um passo
+		MARCAR Bloquear a barra de tarefas
+		Pesquisar > MARCAR Oculto
+		Configurações da Barra de Tarefas >
+			DESATIVAR Substituir Prompt de Comando pelo Windows PowerShell
+			Combinar botões da barra de tarefas: Quando a barra de tarefas estiver cheia
+			Área de notificação > Selecione os ícones que devem aparecer na barra de tarefas >
+				ATIVAR Sempre mostrar todos os ícones na área de notificação
+
+Regedit >
+	(APARENTEMENTE AGORA JÁ ACONTECE POR PADRÃO) NumLock iniciar ativo:
+		HKEY_USERS\.DEFAULT\Control Panel\Keyboard >
+			InitialKeyboardIndicators: mudar para 2
+			(valor antigo no notebook: 2147483648)
+
+	Omitir aviso de disco cheio:
+		HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies >
+			Criar chave Explorer (se não houver) >
+				Criar Valor DWORD (32 bits) >
+					NoLowDiskSpaceChecks: 1
+
+	Permitir caminhos muito longos:
+		HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem >
+			LongPathsEnabled: 1
+
+Pressionar SHIFT cinco vezes rapidamente >
+	Vá para a Central de Facilidade de Acesso (...) >
+		DESMARCAR TUDO
+		OK
+	DESMARCAR Sempre ler este trecho em voz alta
+	DESMARCAR Sempre examinar esta seção
+
+Configurações do teclado de Facilidade de Acesso >
+	ATIVAR Habilitar sublinhados de atalho

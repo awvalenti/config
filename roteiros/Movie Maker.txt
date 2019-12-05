@@ -1,0 +1,18 @@
+Efeitos visuais
+===============
+Fade in, fade out: em Efeitos Visuais. Não dá para definir duração.
+Crossfading: em Animações. "Dá" para definir duração, mas não funciona.
+
+Áudio
+=====
+Adicionar uma música: SEMPRE clicar na setinha e Adicionar no tempo atual, senão zoa tudo!
+
+Quando acrescenta áudio, abaixa o volume de tudo
+O realce de narração, áudio ou vídeo bota o volume daquilo no máximo
+Sem realce, abaixa o volume de tudo
+Quando mexe num áudio no meio de outros, ele desloca os outros
+  Dá para contornar compensando o tempo o tempo de início de todos somando ou subtraindo manualmente
+
+Num vídeo que eu primeiro exportei e depois reimportei adicionando trilha:
+  Primeiro, ficou tudo com volume baixo.
+  Resolvi subindo o volume do vídeo ao máximo e escolhendo realce em música

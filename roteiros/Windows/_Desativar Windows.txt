@@ -1,0 +1,4 @@
+Windox + X, A (Prompt administrativo) >
+  slmgr /dlv
+  Aguardar alguns segundos e anotar o valor do campo Identificação da ativação
+  slmgr /upk digitar-identificação-da-ativação-aqui

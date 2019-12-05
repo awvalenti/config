@@ -1,0 +1,89 @@
+Informações sobre W175:
+  Código do modelo: N85_N87HCHN
+
+  https://unix.stackexchange.com/questions/410854/tsc-deadline-disabled-due-to-errata
+    apt install intel-microcode
+
+  https://askubuntu.com/questions/1007118/cant-boot-ubuntu-17-10-firmware-bug-acpi-region-does-not-cover-the-entire-c
+    Desativar ACPI e/ou TPM no setup
+
+Baixar ISO:
+  Se for Mint:
+    https://linuxmint.com
+    Mirror: Brazil, Universidade Federal do Paraná
+
+  Se for Lubuntu:
+    https://lubuntu.net/
+
+  Pegar checksum e verificar o ISO baixado
+
+  Se for máquina física:
+    Rufus >
+      A princípio, tentar o modo Imagem ISO
+      Se não der certo, tentar o modo Imagem DD
+
+Se for máquina virtual:
+  Se for pelo ISO:
+    VirtualBox >
+      Criar máquina conforme outro txt
+      Dispositivos > Discos Ópticos > Selecionar ISO
+
+  Se for por pendrive:
+    Abrir Gerenciamento de disco, do Painel de Controle
+    Descobrir qual é o número do disco do pendrive
+    Windows + X, A (Prompt Admin)
+    Substituir # pelo número do disco do pendrive e executar:
+      cd %programfiles%\Oracle\VirtualBox
+      VBoxManage internalcommands createrawvmdk -filename T:\usb.vmdk -rawdisk \\.\PhysicalDrive#
+    Abrir VirtualBox *como administrador* e adicionar novo disco referenciando T:\usb.vmdk
+
+Dar boot pelo pendrive pressionando seta para baixo para ver menu >
+  Integrity check
+  Ver se dá "No errors found (...)"
+  Normalmente, para não dar nenhum erro, tem que gravar pendrive em modo Imagem ISO
+
+Se for fazer no modo UEFI:
+  Setup do firmware ("BIOS") (F2 no W175) >
+    Desativar Fast Boot
+	Desativar Secure Boot
+    Desativar Intel SRT
+    (retirado de https://help.ubuntu.com/community/UEFI)
+
+Se for fazer no modo BIOS:
+  (se necessário) Start in compatibility mode
+
+Boot pelo pendrive (F7) >
+  Para facilitar o particionamento e evitar um bug que pode acontecer durante
+  a instalação caso esteja em modo UEFI e haja outro SO instalado em modo BIOS:
+    Menu > GParted >
+      Device > Create Partition Table >
+        Select new partition type: gpt
+      Apagar todas as partições
+
+  Português do Brasil
+  Layout do teclado: Português (Brasil) ou Inglês (EUA, alternativo internacional / intern. alt.)
+  Conectar-se à rede wi-fi
+  MARCAR instalar software de terceiros
+  Tipo de instalação:
+    Se máquina física ou quiser partições lógicas: Apagar disco e reinstalar o Linux Mint:
+      MARCAR Usar LVM com a nova instalação do Linux Mint
+      Instalar agora
+      NESSE CASO, REMOVER A PARTIÇÃO SWAP APÓS A INSTALAÇÃO
+
+    Se máquina virtual ou quiser partições primárias: Opção avançada (para criar partições manualmente)
+      Nova tabela de partição
+      espaço livre (duplo clique) >
+        Ponto de montagem: /
+      Instalar agora
+
+  Se for máquina virtual para banco:
+    Seu nome: Lubuntu
+    Nome do computador: lubuntu
+    Usuário: usuario
+    Senha:   senha
+    MARCAR Iniciar sessão automaticamente
+  Se for de outro jeito:
+    Seu nome: Andre Willik Valenti
+    Usuário: andre
+    Se for máquina física: MARCAR Criptografar minha pasta pessoal
+    Se for máquina virtual: MARCAR Iniciar sessão automaticamente

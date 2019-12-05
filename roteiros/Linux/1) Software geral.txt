@@ -1,0 +1,19 @@
+Instaladores DEB para baixar
+	https://www.google.com/chrome
+	https://wps.com
+
+apt install
+	gparted
+	g++
+	dropbox nemo-dropbox python-gpg
+		(python-gpgme foi substituído pelo acima; mesmo instalando o python-gpg,
+		o dropbox reclama)
+	vim
+	virtualbox-qt
+
+SimpleScreenRecorder
+	http://www.maartenbaert.be/simplescreenrecorder/
+	sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+	apt update
+	apt install simplescreenrecorder
+

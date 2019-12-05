@@ -1,0 +1,42 @@
+Retirar todos os atalhos para OSGi: Debug OSGi Framework, Run OSGi Framework (Unbind Command)
+Formatar: @FXML private ... (anotação na mesma linha do campo)
+Em Debug, Variables do lado esquerdo e Breakpoints do lado direito. Talvez redimensionar barra vertical central para isso.
+Extract method: MARCAR private
+Atalhos Close Project, Close Unrelated Projectes e Terminate (ver na parte Keys)
+class StateInquiry extends StateAbstractRunUnlessStopRequestedOrTimeout
+		implements
+		SimpleDiscoveryListener {
+XML -> ir direto ao código-fonte
+preferences -> compiler -> store information about method parameters
+Collections.sort ENTER chama checkedSortedMap em vez de sort mesmo
+		new Thread("Coronata") {
+// Não deveria ter este espaço
+			@Override
+
+Ver se "Resource 'scanner' should be managed by try-with-resource" realmente compensa
+Alternativa ao jopi que use scanner
+nli<CTRL+Espaço> completa para singletonList, mas não deveria completar para numeroLido também?
+jsp.jstl --> jsp/jstl
+ver se dá para mudar ${ } para ${} em JSP
+String.format não deve ter o \n no final, somente System.out.printf
+Fechar outline de debug, também
+CTRL+PGDWN não deve ir para aba do lado ao editar markdown, deve abrir janela do lado
+Remover java.lang.Object de Type Filters
+Ao criar novo arquivo com imports, ficou com duas quebras de linha:
+	import enunciado.TabuleiroJogo;
+
+
+	public class TabuleiroTudoIgual implements TabuleiroJogo {
+Este if, se for formatado, quebrará linha indevidamente:
+		} else if (p.getLinha() >= 3 && p.getColuna() >= 2 && p.getLinha() <= 4
+				&& p.getColuna() <= 5) {
+Ver se tirar Code Recommenders também tira o fato de fazer abc<CTRL+Espaço> ser igual a aBC<CTRL+Espaço>
+Dentro de uma classe, ao escrever bla<CTRL+Espaço, Enter>, ele cria um método privado com uma quebra de linha sobrando antes
+Poderia ter formatado em quase uma linha só:
+			throw new IllegalArgumentException(
+					String.format("Linha invalida: %d. Permitido: 0 a %d.", lin,
+							qtdeLinhas - 1));
+} catch (IndiceInvalidoException e1) {
+	throw new RuntimeException(e); // <--- Deveria ser e1 nesse caso. Tem que usar alguma variável do tipo ${exception} em vez de e
+}
+

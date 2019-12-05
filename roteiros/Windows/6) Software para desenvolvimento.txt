@@ -1,0 +1,31 @@
+https://atom.io
+	Ver Atom.txt
+
+https://git-scm.com/download/win
+	Ver Git.txt
+
+https://www.eclipse.org/downloads/packages/
+	Descompactar em C:\desenvolvimento\ferramentas\java\eclipse-[versao]
+	Criar diretório C:\desenvolvimento\workspace-eclipse-[versao] com base no zip do Dropbox
+
+http://www.oracle.com/technetwork/java/javase/downloads/
+	Instalar em C:\desenvolvimento\ferramentas\java\jdk(...)
+	Public JRE: não é necessário instalar
+	Editar as variáveis de ambiente para sua conta >
+		Novo >
+			Nome da variável: JAVA_HOME
+			Valor da variável: C:\desenvolvimento\ferramentas\java\jdk(...)
+		Path (clicar 2x) > Novo >
+			%JAVA_HOME%\bin
+
+http://maven.apache.org
+	Extrair para C:\desenvolvimento\ferramentas\java\apache-maven-(...)
+	Editar as variáveis de ambiente para sua conta >
+		Path (clicar 2x) > Novo >
+			C:\desenvolvimento\ferramentas\java\apache-maven-(...)\bin
+
+https://gradle.org/
+	Extrair para C:\desenvolvimento\ferramentas\java\gradle-(...)
+	Editar as variáveis de ambiente para sua conta >
+		Path (clicar 2x) > Novo >
+			C:\desenvolvimento\ferramentas\java\gradle-(...)\bin

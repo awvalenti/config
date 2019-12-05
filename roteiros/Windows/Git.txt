@@ -1,0 +1,13 @@
+VER GERAL TAMBÉM
+
+Botão direito no atalho do menu iniciar (Git Bash) > Abrir local de arquivo >
+	Propriedades do atalho >
+		Destino: C:\desenvolvimento\ferramentas\git\git-bash.exe (remover a parte --cd-to-home)
+		Iniciar em: C:\desenvolvimento\projetos
+		
+Abrir Git Bash > Botão direito na barra de título > Options...
+	Looks >
+		Transparency: Low
+	Text > Font > Select... >
+		Tamanho: 16
+	Save

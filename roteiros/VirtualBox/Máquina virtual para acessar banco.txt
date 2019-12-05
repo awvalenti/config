@@ -1,0 +1,53 @@
+Baixar VirtualBox e Lubuntu (lubuntu-16.04.2-desktop-amd64.iso funcionou; 18.04, não)
+
+Instalar VirtualBox
+
+Criar máquina virtual
+	- 2GB de RAM
+	- 40GB de HD
+	- Outras configurações padrão do outro txt
+
+Abrir máquina virtual >
+
+	Instalar módulo de segurança (warsaw)
+		- (A FAZER)
+		- Reiniciar
+
+	Compartilhar pastas entre hospedeiro e convidado
+		Tentar apenas atualizar o sistema para ver se isso já atualiza o
+		Adicionais para Convidado. Se sim, beleza. Se não:
+
+		Dispositivos >
+			Inserir imagem de CD dos Adicionais para Convidado...
+
+		Terminal >
+			sudo apt-get install gcc make
+			cd /media/usuario/VBOXADDITIONS_5.1.10_112026/
+			sudo ./VBoxLinuxAdditions.run
+			sudo usermod usuario -a -G vboxsf
+
+	Criar atalho para desligar
+		Abrir terminal >
+			lxshortcut -o ~/Área\ de\ Trabalho/Desligar >
+				(Opcional) Clicar no ícone para alterar
+				Entrada de desktop >
+					Comando: poweroff
+
+	Abrir navegador automaticamente ao iniciar
+		Iniciar > Preferências > Aplicações pré-definidas de LxSession > Arranque automático >
+				(ao lado de + Adicionar) firefox -private-window https://internetbanking.caixa.gov.br
+				+ Adicionar
+
+	- sudo apt-get install numlockx
+
+	- Ativar área de transferência
+
+	- Configurar tecla de hospedeiro
+		Alt direita (ou CTRL direita, que é o padrão)
+		Para dar ALT+TAB, é só pressionar a tecla de hospedeiro primeiro
+
+	Exibir pastas antes de arquivos
+		Gerenciador de arquivos > Botão direito > Misturar arquivos e pastas (desmarcar)
+
+	Ao salvar comprovante, criar atalho para pasta e também para Ocasionais
+		(fazer um download na janela nomeada na pasta Comprovantes para o Firefox entender que deve ser lá por padrão)

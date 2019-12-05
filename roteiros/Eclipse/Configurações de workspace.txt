@@ -1,0 +1,520 @@
+DESMARCAR Always show Welcome at start up
+Clicar em Workbench
+Aumentar levemente altura do painel inferior, onde fica o Console
+ALT + F11 >
+	Do not show again
+	ALT + F11 de novo
+
+Perspectiva Java EE (ela é aberta por padrão) >
+	File > New > Other > Java Project >
+		Project name: java1
+		Finish
+		Open Associated Perspective? >
+			MARCAR Remember my decision
+			Open Perspective
+Perspectiva Java (agora ela vai ter sido aberta) >
+	File > New > Other > Dynamic Web Project >
+		Project name: jee2
+		Finish
+		Open Associated Perspective? >
+			MARCAR Remember my decision
+			Open Perspective
+Perspectiva Java EE (voltou para ela) >
+	Fechar Outline e Task List (à direita)
+	Window > Show View > Other... >
+		General > Tasks
+		Open
+		Clicar de volta em Markers
+	Clicar em perspectiva Java (canto superior esquerdo)
+Perspectiva Java >
+	Fechar Task List e Outline
+	Window > Show View > Tasks
+	Clicar de volta em Problems
+	Package Explorer >
+		MARCAR Link with Editor
+		Setinha para baixo > Package Presentation > Hierarchical
+	CTRL + H >
+		Customize... >
+			Deselect All
+			MARCAR File Search, Git Search, Java Search, JavaScript Search
+			MARCAR Remember last used page
+			Clicar na aba File Search
+			OK
+		File search
+		File name patterns: *
+		Cancel
+	New > Java Class >
+		Package: p1.p2
+		Name: QualquerCoisa
+		MARCAR public static void main
+		Finish
+		CTRL + F >
+			MARCAR Incremental
+			Aumentar largura do diálogo
+			Close
+		Dentro de main >
+			System.out.println();
+			Clique duplo ou CTRL+SHIFT+B na linha do println() para adicionar breakpoint
+			Modificar arquivo sem salvar
+			Botão direito > Debug As > Java Application >
+				MARCAR Always save resources before launching
+				OK
+
+			Confirm Perspective Switch >
+				MARCAR Remember my decision
+				Yes
+			Perspectiva Debug >
+				Terminate
+				Breakpoints >
+					Remove All Breakpoints >
+						MARCAR Do not ask me again.
+						Yes
+				Window > Show View > Display
+				Clicar de volta na view Console
+				Window > Show View > Expressions
+				Clicar de volta na view Variables
+		Pperspectiva Java >
+			New Java Class >
+				Package: p1
+				Name: QualquerOutraCoisa
+				Finish
+			Modificar arquivo sem salvar, renomear pacote p1 >
+				MARCAR Always save all modified resources automatically prior to refactoring
+				OK
+				MARCAR Rename subpackages
+				Cancel
+			Remover p1 >
+				MARCAR Delete subpackages of selected packages
+				OK
+
+	File > Import > General > Existing projects into workspace >
+		Importar um projeto qualquer
+		Deletá-lo do workspace (sem apagar no sistema de arquivos)
+		(tudo isso só serve caso o atalho Shift+Ctrl+M não dê certo;
+		se der, não será necessário deixar Existing projects into workspace
+		como opção padrão de File > Import)
+	Criar uma classe com um campo >
+		Source >
+			Generate constructor using fields > MARCAR Omit call to default constructor super()
+			Generate constructors from superclass > MARCAR Omit call to default constructor super()
+			Generate toString() > Code Style: String.format/MessageFormat
+			Generate getters and setters > Select All, OK
+		Refactor >
+			Rename field > Options (ou ALT+SHIFT+R de novo)
+				MARCAR Rename getter
+				MARCAR Rename setter
+			Extract Interface >
+				Use the extracted interface in 'instanceof' expressions
+				Select All
+				DESMARCAR Generate method comments
+
+Window > Preferences
+	General >
+		MARCAR Show heap status
+		Workbench save interval (in minutes): 1
+		Appearance >
+			Colors and Fonts >
+				Basic > Text Font >
+					Liberation Mono Regular 14 (Linux)
+					Consolas 14 (Windows)
+				Editors > Text Editors >
+						MARCAR Show whitespace characters
+							configure visibility > Transparency level: 30
+						Spelling > DESMARCAR Enable spell checking
+		Editors >
+			File Associations >
+				File types: Add... >
+					File Type: *.tsv
+					OK
+				Associated editors: Add... >
+					Text Editor
+					OK
+			Text Editors >
+					MARCAR Show print margin
+					MARCAR Show whitespace characters
+						(configure visibility) >
+							Transparency level: 30
+					Spelling > DESMARCAR Enable spell checking
+		Error Reporting >
+			Send mode: Never send reports
+		Keys >
+			Redo: Ctrl+Y (se fizer no Windows, apagar atalho e redefini-lo para ver se redefine no Linux também)
+			Duplicate lines >
+				When: Editing Text
+				Binding: Shift+Ctrl+D
+				(estes dois abaixo provavelmente não serão necessários.
+				dava conflito antes, mas a solução é liberar o outro
+				comando Shift+Ctrl+D, conforme abaixo)
+				*Copy Command > When: Editing HTML Source > Binding: Shift+Ctrl+D
+				*Copy Command > When: Editing XML Source  > Binding: Shift+Ctrl+D
+			Next editor: Ctrl+TAB
+			Previous editor: Shift+Ctrl+TAB
+			Add Maven Dependency > Unbind command (para liberar o Shift+Ctrl+D)
+			Close > Unbind command (para liberar o Ctrl+F4)
+			Close Others: Ctrl+Alt+O
+			Close Project: Ctrl+F4 ############## (PODE NÃO SER UMA BOA PORQUE NO XFCE ISSO ALTERNA OS ESPAÇOS DE TRABALHO)
+			Close Unrelated Projects: Ctrl+U
+			All instances > Unbind command (para liberar o Shift+Ctrl+N)
+			Terminate > When: In Windows
+			Export (Archive File): Shift+Ctrl+Z
+			Import (Existing Projects into Workspace): Shift+Ctrl+N M
+			         New (Annotation): Shift+Ctrl+N A
+			              New (Class): Shift+Ctrl+N C
+			New (Dynamic Web Project): Shift+Ctrl+N W
+			               New (Enum): Shift+Ctrl+N E
+			               New (File): Shift+Ctrl+N F
+			             New (Folder): Shift+Ctrl+N D
+			          New (HTML File): Shift+Ctrl+N H
+			          New (Interface): Shift+Ctrl+N I
+			       New (Java Project): Shift+Ctrl+N P
+			           New (JSP File): Shift+Ctrl+N J
+			    New (JUnit Test Case): Shift+Ctrl+N T
+			            New (Package): Shift+Ctrl+N K
+			            New (Servlet): Shift+Ctrl+N S
+			           New (XML File): Shift+Ctrl+N X
+			         Push to Upstream: Shift+Ctrl+4
+			                     Pull: Shift+Ctrl+5
+		Search >
+			DESMARCAR Reuse editors to show matches
+		Startup and Shutdown >
+			MARCAR Refresh workspace on startup
+			DESMARCAR Confirm exit when closing last window
+			Plug-ins activated on startup >
+				DESMARCAR:
+					Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration
+					Cloud Foundry Tools (Verify UI)
+					WTP Webservice UI Plug-in
+					Mylyn Tasks UI
+					Mylyn Team UI
+					Oomph Setup UIO
+					Oomph Dynamic Working Sets Editor
+		Workspace >
+			MARCAR Refresh using native hooks or polling
+			MARCAR Save automatically before build
+			MARCAR Always close unrelated projects without prompt
+
+			Workspace save interval (in minutes): 1
+
+			Window title >
+				DESMARCAR Show workspace name
+				MARCAR Show perspective name
+
+			Open referenced projects when a project is opened: Always
+			Text file encoding: Other: UTF-8
+			New text file line delimiter: Other: Unix
+	Code Recommenders > Completions
+		MARCAR Subtypes-Completion Processor
+		DESMARCAR Enable Code Recommenders code completion
+	Java >
+		Appearance > Type filters >
+			Add >
+				antlr.collections.*
+				com.oracle.*
+				com.sun.*
+				java.awt.List
+				javax.management.Query
+				org.hibernate.engine.internal.Collections
+				org.hibernate.mapping.*
+				org.hsqldb.lib.*
+
+		Code Style >
+			Code Templates >
+				Comments (para cada subitem) > Clicar 2x ou clicar em Edit...
+					Pattern: (apagar tudo)
+					OK
+				Code >
+					New Java files > Edit... >
+						Pattern:
+${package declaration}
+${type declaration}
+					Method body > Edit... >
+						Pattern: apagar a linha // ${todo} Auto-generated (...)
+					Constructor body > Edit... >
+						Pattern: apagar a linha // ${todo} Auto-generated (...)
+					Catch block body > Edit... >
+						Pattern: throw new RuntimeException(e);
+			Formatter >
+				New >
+					Profile name: formatador-andre
+					OK >
+						Blank Lines >
+							Blank lines within class declarations >
+								Before first declaration: 1
+						New Lines >
+							MARCAR after labels
+							MARCAR at end of file
+						Control Statements >
+							'if else' >
+								MARCAR Keep 'then' statement on same line
+								MARCAR Keep 'else' statament on same line
+						Line Wrapping >
+							Maximum line width: 80
+							Line wrapping policy >
+								Annotations: Wrap where necessary
+								Class Declarations: Wrap all elements, except first element if not necessary
+								Method Declarations >
+									Declaration: Wrap where necessary
+								'enum' declaration >
+									Constants: Wrap all elements, every element on a new line
+								Expressions >
+									Binary expressions >
+										DESMARCAR Wrap before operator
+									Conditionals >
+										Wrap where necessary
+										DESMARCAR Wrap before operator
+									Assignments: Wrap where necessary
+								Statements >
+									'for': Wrap where necessary
+									(aparentemente, não funciona) Compact 'if else': Do not wrap
+							OK
+			Organize Imports >
+				Number of static imports needed for .*: 1
+
+		Compiler > Errors/Warnings >
+			Code style >
+				Resource not managed via try-with-resources: Warning
+			Potential programming problems >
+				Possible accidental boolean assignment: Warning
+				'switch' case fall-through: Warning
+				Potential resource leak: Warning
+				Class overrides 'equals()' but not 'hashCode()': Warning
+			Name shadowing and conflicts >
+				Field declaration hides another field or variable: Warning
+				Local variable declaration hides another field or variable: Warning
+			Unnecessary code >
+				Value of method parameter is not used: Warning
+				Unused type parameter: Warning
+				Unnecessary 'cast' or 'instanceof' operation: Warning
+				Unnecessary declaration of thrown exception: Warning
+				Redundant super interface: Warning
+			Generic types >
+				Redundant type arguments (1.7 or higher): Warning
+					MARCAR Ignore unavoidable generic type problems due to raw APIs
+			Annotations >
+				Missing '@Override' annotation: Warning
+			Null analysis >
+				Potential null pointer access: Warning
+				Redundant null check: Warning
+		Editor >
+			Content Assist >
+				MARCAR Insert common prefixes automatically
+				MARCAR Insert best guessed arguments
+				Favorites >
+					New Type ... >
+						org.hamcrest.CoreMatchers
+						org.hamcrest.Matchers
+						org.junit.Assert
+						org.mockito.Mockito
+					New Member... >
+						java.util.Arrays.asList
+						java.util.Collections.emptyList
+						java.util.Collections.emptyMap
+						java.util.Collections.emptySet
+						java.util.Collections.singleton
+						java.util.Collections.singletonList
+						java.util.Collections.singletonMap
+						java.util.Collections.unmodifiableCollection
+						java.util.Collections.unmodifiableList
+						java.util.Collections.unmodifiableMap
+						java.util.Collections.unmodifiableSet
+			Save Actions >
+				MARCAR Perform the selected actions on save >
+					DESMARCAR Organize imports
+					MARCAR Additional actions > Configure... >
+						Code Organizing >
+							MARCAR Remove trailing whitespace
+						Missing code >
+							DESMARCAR Add missing Annotations
+						Unnecessary Code >
+							DESMARCAR Remove unnecessary casts
+			Templates >
+				for (iterate over array) >
+					Trocar ${index}++ por ++${index}
+				for (iterate over array with temporary variable) >
+					Trocar ${index}++ por ++${index}
+				foreach >
+					Mudar ${cursor} para ${cursor}${line_selection}
+				New... >
+					Aumentar largura da janela
+				New... >
+					Name: pf
+					Description: printf
+					Pattern:
+						System.out.printf("${cursor}%${s}\n", ${name:var(String)});
+				New... >
+					Name: sf
+					Description: String.format
+					Pattern:
+						String.format("${cursor}%${s}\n", ${name:var(String)});
+				New... >
+					Name: pint
+					Description: Integer.parseInt
+					Pattern:
+						Integer.parseInt(${line_selection});
+				New... >
+					Name: pboolean
+					Description: Boolean.parseBoolean
+					Pattern:
+						Boolean.parseBoolean(${line_selection});
+				New... >
+					Name: pdouble
+					Description: Double.parseDouble
+					Pattern:
+						Double.parseDouble(${line_selection});
+				New... >
+					Name: jops
+					Description: String s = JOptionPane.showInputDialog()
+					Pattern:
+						String ${name:newName(String)} = JOptionPane.showInputDialog("${cursor}");${imp:import(javax.swing.JOptionPane)}
+				New... >
+					Name: jopi
+					Description: int i = Integer.parseInt(JOptionPane.showInputDialog())
+					Pattern:
+						int ${name:newName(int)} = Integer.parseInt(JOptionPane.showInputDialog("${cursor}"));${imp:import(javax.swing.JOptionPane)}
+				New... >
+					Name: jopb
+					Description: boolean b = Boolean.parseBoolean(JOptionPane.showInputDialog())
+					Pattern:
+						boolean ${name:newName(boolean)} = Boolean.parseBoolean(JOptionPane.showInputDialog("${cursor}"));${imp:import(javax.swing.JOptionPane)}
+				New... >
+					Name: jopd
+					Description: double d = Double.parseDouble(JOptionPane.showInputDialog())
+					Pattern:
+						double ${name:newName(double)} = Double.parseDouble(JOptionPane.showInputDialog("${cursor}"));${imp:import(javax.swing.JOptionPane)}
+				New... >
+					Name: alist
+					Description: new ArrayList
+					Pattern:
+						List<${E}> ${name:newName(List)} = new ArrayList<>();${imp:import(java.util.List, java.util.ArrayList)}
+				New... >
+					Name: hset
+					Description: new HashSet
+					Pattern:
+						Set<${E}> ${name:newName(Set)} = new HashSet<>();${imp:import(java.util.Set, java.util.HashSet)}
+				New... >
+					Name: hmap
+					Description: new HashMap
+					Pattern:
+						Map<${K}, ${V}> ${name:newName(Map)} = new HashMap<>();${imp:import(java.util.Map, java.util.HashMap)}
+				New... >
+					Name: sb
+					Description: new StringBuilder
+					Pattern:
+						StringBuilder ${name:newName(sb)} = new StringBuilder();
+			Typing >
+				MARCAR Semicolons
+	JavaScript >
+		Code Style >
+			Formatter
+				New... >
+					Profile name: formatador-andre
+					OK
+					Indentation >
+						Tab policy: Spaces only
+						Indentation size: 2
+						Tab size: 2
+					White Space >
+						Expressions >
+							Object initializers: DESMARCAR before object initializer colon
+					New Lines >
+						MARCAR at end of file
+					Line Wrapping >
+						Maximum line width: 80
+					OK
+		Editor >
+			Save Actions >
+				MARCAR Perform the selected actions on save >
+					MARCAR Additional actions > Configure... >
+						Code Organizing >
+							MARCAR Remove trailing whitespace
+			Typing >
+				MARCAR Semicolons
+				MARCAR Braces
+				MARCAR Escape text when pasting into a string literal
+	Maven >
+		MARCAR Download Artifact Sources
+		MARCAR Download Artifact JavaDoc
+		Global Checksum Policy: Fail
+		User Interface >
+			MARCAR Open XML page in the POM editor by default
+		Errors/Warnings >
+			"version" duplicate of parent version: Ignore
+	Run/Debug >
+		Console >
+			Console buffer size (characters): 1000000
+			Displayed tab width: 4
+		Launching > Lunch Configurations >
+			MARCAR Delete configurations when associated resource is deleted
+	Team > Git >
+		Default repository folder:
+			/home/andre/desenvolvimento/projetos (Linux)
+			C:\desenvolvimento\projetos (Windows)
+		Committing >
+			MARCAR Include selected untracked files
+			MARCAR Automatically stage files being deleted
+		Confirmations and Warnings >
+			DESMARCAR Fetch Result Dialog
+			DESMARCAR Push Result Dialog
+	Web >
+		CSS Files > Editor >
+			Line width: 80
+			MARCAR Indent using spaces
+			Indentation size: 2
+			Templates >
+				New CSS > Edit... >
+					Pattern: (deixar em branco)
+		HTML Files > Editor >
+			Line width: 80
+			Templates >
+				Expandir coluna Name
+				New HTML File (5) > Edit... >
+					Pattern:
+<!doctype html>
+<html>
+	<head>
+		<meta charset="${encoding}">
+		<title></title>
+	</head>
+	<body>
+		${cursor}
+	</body>
+</html>
+		JSP Files > Editor > Templates >
+			Expandir coluna Name
+			New JSP File (html), Edit >
+				Pattern:
+<%@ page language="java" contentType="text/html; charset=${encoding}"
+    pageEncoding="${encoding}"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="${encoding}">
+		<title></title>
+	</head>
+	<body>
+		${cursor}
+	</body>
+</html>
+
+	XML > XML Files > Editor >
+		Line width: 80
+
+Finalização
+	File > New >
+		Contrair todas as pastas
+		Class >
+			Qualquer nome
+			Finish
+			(isso serve para deixar Class como opção padrão de File > New)
+	Run > Run Configurations > Java Application > Remover configs. (se houver)
+	Excluir todos os projetos >
+		MARCAR Delete project contents on disk (cannot be undone)
+		OK
+	Deixar aberta perspectiva Java
+	Deixar aberta a View chamada Problems
+	Deixar janela posicionada no meio da tela
+	Fechar Eclipse
+	Apagar a lista de últimos arquivos abertos:
+		Editar arquivo workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi >
+			Apagar o que está depois de &lt;mruList> e antes de &lt;/mruList>, deixando assim: &lt;mruList>&lt;/mruList>

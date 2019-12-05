@@ -1,0 +1,10 @@
+avidemux avidemux-plugins-common avidemux-plugins-gtk
+	editor simples parecido com VirtualDub
+
+mkvmerge GUI
+	usei versão 6.7.0
+	usei para acelerar vídeos de 30fps para 60fps
+	
+HandBrake
+	extrator de DVD, conversor de formatos
+	

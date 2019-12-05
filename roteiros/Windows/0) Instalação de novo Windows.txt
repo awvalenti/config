@@ -1,0 +1,11 @@
+Abrir Assistente de Atualização do Windows 10 para descobrir se versão que tenho do ISO é a mais nova ou não
+	Se for mais nova, só usar
+	Se não, baixar mais nova em https://www.microsoft.com/pt-br/software-download/windows10
+
+Gerar pendrive usando ISO e Rufus
+
+Dar boot pelo pendrive
+
+Durante instalação, escolher opções que preservem privacidade
+
+Após instalação, reiniciar caso algum driver que foi instalado solicitar reinício

@@ -1,0 +1,4 @@
+Tirar bando de comentários de servlet; acrescentar @Override
+	Deveria ser em Code templates, mas não achei lá
+Ao criar um método com um parâmetro:
+	CTRL + 1 nele e Assign parameter to new field: colocar final automaticamente

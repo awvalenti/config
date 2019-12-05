@@ -1,0 +1,40 @@
+(SE NECESSÁRIO) Grub:
+	Terminal >
+		sudo nano /etc/default/grub >
+			GRUB_TIMEOUT=0.1
+			CTRL+O, Enter, CTRL+X
+		sudo update-grub
+
+Redshift >
+	Botão direito no ícone na bandeja >
+		MARCAR Iniciar automaticamente
+
+Terminal >
+	sudo mkdir /mnt/ramdisk
+	echo 'tmpfs    /mnt/ramdisk    tmpfs    nodev,nosuid,noexec,nodiratime,size=4G    0    0' | sudo tee -a /etc/fstab
+
+Tela de boas vindas >
+	AFAZER Instalar driver da nVidia e, depois, nas configs da nVidia, marcar
+		que se quer usar o vídeo Intel
+	DESMARCAR Mostrar esta caixa de diálogo ao iniciar
+
+Criar diretórios:
+	Terminal >
+		cd && mkdir desenvolvimento && cd desenvolvimento && mkdir -p projetos ferramentas/java
+	
+Gerenciador de Atualizações (o escudo com exclamação azul, no canto inferior direito) >
+	Deixe-me revisar atualizações sensíveis
+	OK
+	Você quer mudar para um mirror local? >
+		Tive problemas ao fazer isso uma vez. Na hora de instalar alguns pacotes,
+		corrompeu alguma coisa (baixou pela metade) e eu só consegui reverter
+		voltando para os espelhos oficiais remotosSe quiser arriscar
+		OK
+		(vai abrir automaticamente uma janela Fontes de Aplicativos) >
+			Espelhos > Início e Base > escolher (provavelmente, UFPR)
+			Atualizar o cache
+			(caso indique checksum inválida, trocar de espelho)
+			Fechar janela
+	Selecionar Tudo
+	Instalar Atualizações
+

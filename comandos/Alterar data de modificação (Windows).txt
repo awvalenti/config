@@ -1,0 +1,2 @@
+Alterar data de modificação de arquivo:
+$(Get-Item video.mp4).LastWriteTime=$(Get-Date "2019-01-02 15:13:11")

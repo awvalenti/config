@@ -1,0 +1,5 @@
+Acesso a pastas compartilhadas:
+	sudo usermod andre -a -G vboxsf
+	Reiniciar
+
+Criar atalhos para Desligar e Reiniciar (AFAZER)

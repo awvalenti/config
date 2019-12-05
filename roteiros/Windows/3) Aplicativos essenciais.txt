@@ -1,0 +1,4 @@
+LidLock (abrir, botão direito no ícone na bandeja, MARCAR Autorun)
+Chrome - definir como navegador padrão e fazer login
+EmEditor
+Office

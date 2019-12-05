@@ -1,0 +1,19 @@
+Ferramentas > Preferências >
+  Exibir configurações: MARCAR Detalhado
+
+  Interface >
+    Aparência >
+      Exibir alerta de troca de mídia: Nunca
+    Lista de Reprodução e Instâncias >
+      MARCAR Permitir somente uma instância
+      MARCAR Enfileira os itens na lista de reprodução quando estiver em modo de instância única
+
+  Vídeo >
+    Aproximar vídeo: 0,75
+
+  Teclas de atalho >
+    Ação: Reproduzir/Pausar >
+      Clicar 2x na coluna Global e pressionar tecla Reproduzir/Pausar
+    Fazer o mesmo com as ações próximo e anterior
+
+Reiniciar VLC

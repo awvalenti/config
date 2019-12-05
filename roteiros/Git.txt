@@ -1,0 +1,10 @@
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+
+Adicionar chave:
+	https://github.com/settings/keys
+	https://bitbucket.org/account/user/awvalenti/ssh-keys/
+
+git config --global user.name "Andre Willik Valenti"
+git config --global user.email "awvalenti@gmail.com"
+git config --global push.default simple

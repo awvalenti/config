@@ -1,0 +1,17 @@
+No PC antigo:
+	Bandizip > Novo arquivo >
+		db.zip
+		Arrastar e soltar conteúdo da pasta Dropbox (EXCETO o arquivo .dropbox)
+		Nível de compressão: sem compressão
+
+	Copiar para HD externo:
+		BANDIZIP-SETUP.EXE
+		db.zip
+		DropboxInstaller.exe
+
+No PC novo:
+	Instalar Bandizip (ver configurações extras em Bandizip.txt)
+	Instalar Dropbox
+	Após entrar com dados da conta no Dropbox, desconectar-se da internet ou pausar sincronização
+	Extrair db.zip na pasta criada pelo Dropbox
+	Conectar-se de volta à internet ou retomar sincronização

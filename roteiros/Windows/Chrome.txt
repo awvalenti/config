@@ -1,0 +1,4 @@
+Windows + X > Prompt de Comando (Admin) >
+	cd C:\Users\andre\AppData\Local\Google\Chrome\User Data\Default
+	rd /s Cache
+	mklink /d Cache T:\cache-chrome

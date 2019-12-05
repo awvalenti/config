@@ -1,0 +1,7 @@
+about:config >
+	Verificar se browser.cache.disk.enable está com valor true
+	Botão direito em qualquer propriedade > Nova preferência > String... >
+		Forneça o nome da preferência: browser.cache.disk.parent_directory
+		Valor: T:\cache-firefox
+
+  toolkit.cosmeticAnimations.enabled: false

@@ -1,0 +1,121 @@
+gpedit.msc
+	Política Computador Local > Configuração do Computador > Modelos Administrativos > Componentes do Windows > Pesquisar >
+		Para as opções:
+			Permitir Cortana
+			Permitir a Cortana acima da tela de bloqueio
+			Permitir que pesquisa e Cortana usem a localização
+		Clicar 2x >
+			MARCAR Desabilitado
+			OK
+	Fazer logoff e login de novo
+
+regedit >
+  HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows >
+    Nova chave: Windows Search >
+      Novo valor DWORD: AllowCortana = 0
+
+Ícone de pesquisa > Configurações >
+	DESATIVAR Histórico do meu dispositivo
+	Limpar histórico do meu dispositivo
+
+(se houver) Barra de idiomas > Preferências de idioma >
+	Português (Brasil) > Opções >
+		Português (Brasil ABNT) > Remover
+
+Windows Explorer >
+	Exibir (ALT + V) >
+		MARCAR Extensões de nomes de arquivos
+		MARCAR Itens ocultos
+		Opções >
+			Abrir explorador para: Meu computador
+			Privacidade >
+				DESMARCAR Mostrar arquivos usados recentemente em Acesso rápido
+				DESMARCAR Mostrar pastas mais usadas em Acesso rápido
+				Limpar histórico de Explorador de Arquivos: Limpar
+		OK
+
+	Este Computador >
+		Unidades SSD > Botão direito > Propriedades >
+			Ferramentas >
+				Otimizar e desfragmentar unidade > Otimizar >
+					Alterar configurações >
+						DESMARCAR Executar seguindo um agendamento (recomendado)
+						OK
+				Fechar
+			Geral >
+				Rótulo: Windows
+				Aplicar
+				DESMARCAR Permitir que os arquivos desta unidade tenham o conteúdo indexado (...)
+				OK
+		Unidades a cifrar > Botão direito > Ligar BitLocker >
+			Como deseja fazer o backup da chave de recuperação? Salvar em um arquivo >
+				Escolher como caminho um pendrive
+				OK
+			Avançar
+			Escolher que parte da unidade deve ser criptografada >
+				Criptografar apenas espaço em disco usado (...)
+				Avançar
+			Escolha o modo de criptografia a ser usado >
+				Novo modo de criptografia (...)
+				Avançar
+			Você está pronto para criptografar essa unidade? >
+				MARCAR Executar verificação do sistema BitLocker
+				Continuar
+			Reiniciar computador
+
+services.msc >
+	Windows Search >
+		Tipo de inicialização: Desativado
+		Parar
+
+Propriedades do Sistema > Configurações avançadas do sistema >
+	Desempenho > Configurações... >
+		Avançado > Memória Virtual > Alterar >
+			DESMARCAR Gerenciar automaticamente (...)
+			MARCAR Sem arquivo de paginação
+			Definir
+
+Central de Segurança do Windows Defender >
+	Controle de aplicativos e do navegador >
+		DESATIVAR:
+			Verificar aplicativos e arquivos
+			(PODE NÃO FUNCIONAR) SmartScreen para Microsoft Edge
+			SmartScreen para aplicativos da Windows Store
+
+Sobre o computador >
+	Renomear este computador >
+		(escolher nome)
+	Reiniciar
+
+Windows Update >
+	Instalar atualizações
+	Atualizar e reiniciar
+
+Configurações de tela de bloqueio > Configuracões de proteção de tela >
+	Aguardar: 5 minutos
+	MARCAR Ao reiniciar, exibir tela de logon
+	OK
+
+Painel de Controle > Hardware e Sons > Opções de Energia >
+	Escolher a função dos botões de energia >
+		Alterar configurações não disponíveis no momento >
+			DESMARCAR Ligar inicialização rápida
+		Quando eu pressionar o botão de energia >
+			Na bateria: Desligar
+			Na tomada: Desligar
+		Quando eu fechar a tampa >
+			Na bateria: Nada a fazer
+			Na tomada: Nada a fazer
+	Salvar alterações
+
+	Equilibrado (recomendável) > Alterar configurações do plano >
+		Alterar configurações de energia avançadas >
+			Bateria >
+				Ação de bateria crítica >
+					Na bateria: Desligar (caso se queira poupar o SSD de hibernação, que escreve muitos gigabytes)
+					Na tomada: Nada a fazer
+				Nível de bateria fraca >
+					Na bateria: 15%
+					Na tomada: 15%
+
+FALTAM AS AÇÕES DOS BOTÕES DE ENERGIA: desligar ao pressionar botão liga/desliga e ver se tem atalho de suspender

@@ -1,0 +1,12 @@
+apt install
+	git
+	openjdk-8-jdk
+	maven
+
+Instaladores DEB
+	https://code.visualstudio.com/
+	https://atom.io
+
+Outros
+	https://www.eclipse.org/downloads/packages/
+

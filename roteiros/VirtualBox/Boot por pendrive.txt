@@ -1,0 +1,7 @@
+1) Abrir Gerenciamento de disco, do Painel de Controle
+2) Descobrir qual é o número do disco do pendrive
+3) Abrir cmd de administrador (Windows + X, A)
+4) Substituir # pelo número do disco do pendrive e executar:
+  cd %programfiles%\Oracle\VirtualBox
+  VBoxManage internalcommands createrawvmdk -filename T:\usb.vmdk -rawdisk \\.\PhysicalDrive#
+5) Abrir VirtualBox como administrador e adicionar novo disco referenciando T:\usb.vmdk

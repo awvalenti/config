@@ -1,0 +1,9 @@
+Option > Main Settings >
+  Defaults >
+    MARCAR Estimate Finish Time
+    MARCAR Verify
+  Shell Extension >
+    MARCAR Enable
+    DESMARCAR Delete
+    DESMARCAR Auto close, if no error
+    MARCAR Don't confirm in Copy(drag&drop) / Move / Paste

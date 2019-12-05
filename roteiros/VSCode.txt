@@ -1,0 +1,8 @@
+Windows + X, A (Prompt de Comando Admin) >
+  cd C:\Users\andre\AppData\Roaming\Code\User
+
+  REM Escolher um dos dois abaixo
+  REM move settings.json C:\Users\andre\Dropbox\Configurações\VSCode
+  REM del settings.json
+
+  mklink settings.json C:\Users\andre\Dropbox\Configurações\VSCode\settings.json

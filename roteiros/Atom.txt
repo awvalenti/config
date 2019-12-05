@@ -1,0 +1,39 @@
+Botão direito no atalho do menu iniciar > Abrir local de arquivo >
+	Propriedades >
+		Tecla de atalho: Ctrl + Alt + A
+CTRL + , (Settings) >
+	Core >
+		Project Home: /home/andre/desenvolvimento/projetos ou C:\desenvolvimento\projetos
+		Restore Previous Window On Start: no
+	Editor >
+		MARCAR Show invisibles
+		MARCAR Soft wrap
+		Font Size: 18
+	System >
+		(estes dois provavelmente só existem no Windows)
+		MARCAR Show in file context menus
+		MARCAR Show in folder context menus
+	Keybindings > your keymap file >
+'body':
+  'ctrl-shift-w': 'pane:close'
+
+Install >
+	git-plus
+	?love-ide
+	?love-launcher
+
+Atom >
+	DESMARCAR Show Welcome Guide when opening Atom
+	No, I don't want to help
+	Settings >
+		Core >
+			Project Home: /home/andre/desenvolvimento/projetos
+			Restore Previous Window On Start
+		Editor >
+			MARCAR Show invisibles
+			MARCAR Soft wrap
+			Font Size: 18
+			(JÁ DEVE ESTAR POR PADRÃO) Tab Length: 2
+		Themes >
+			Syntax Theme: Base16 Tomorrow Dark
+

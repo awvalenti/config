@@ -1,0 +1,45 @@
+Novo >
+	Modo Expert
+	Nome: Linux Mint Cinnammon 18.2 (exemplo)
+	Tamanho da memória: 4096 MB
+	(Manter) Criar um novo disco rígido virtual agora
+	Criar >
+		Localização do arquivo: (botão de procurar)
+			Se desejar, escolher um diretório diferente do padrão
+		Tamanho do arquivo: 40,00 GB
+		(Manter) VHDI
+		(Manter) Dinamicamente alocado
+		Criar
+	Configurações >
+		Geral >
+			Avançado >
+				Área de transferência compartilhada: Bi-direcional
+				Arrastar e Soltar: Bi-direcional
+		Sistema >
+			Processador >
+				Processador(es): 4 (ou o máximo que der)
+		Monitor >
+ 			Tela >
+				Aceleração >
+					MARCAR Habilitar Aceleração 3D
+		Armazenamento >
+			Controladora SATA > Arquivo vdi >
+				Atributos >
+					MARCAR Drive de estado sólido
+		Pastas Compartilhadas >
+			Botão de acrescentar (à direita) >
+				Caminho da Pasta: T:\
+				Nome da Pasta: t
+				MARCAR Montar Automaticamente
+				OK
+	OK
+
+	Abrir máquina virtual >
+		Selecione o disco rígido de boot >
+			Botão de selecionar (ao lado de Vazio): escolher ISO
+		Iniciar
+		Você tem a opção Auto-capturar teclado ligada: Não mostrar essa mensagem novamente
+		A máquina Virtual informa que o sistema operacional convidado suporta o recurso de integração: Não mostrar essa mensagem novamente
+		Pressionar tecla CTRL direita duas vezes >
+			MARCAR Não mostrar esta mensagem novamente
+			Capturar

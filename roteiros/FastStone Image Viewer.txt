@@ -1,0 +1,10 @@
+Definições > Idioma > English
+  Reiniciar
+
+F12 >
+  DESMARCAR Show filename in Full Screen - Text
+  MARCAR No Hourglass (busy) cursor in Full Screen
+  Single File Deleted to: Recycle-Bin, No Confirmation
+
+Ao ver uma foto, ESC >
+  MARCAR Do not show this dialog again
