@@ -1,6 +1,7 @@
 alias  ad='git add'
 alias ad.='git add .'
 alias  am='git commit --amend'
+alias amm='git commit --amend -m'
 alias amn='git commit --amend --date=now'
 alias  bc='git branch'
 alias  bl='git blame'
