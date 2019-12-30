@@ -57,6 +57,7 @@ alias ssl='git stash list'
 alias ssu='git stash -u'
 alias ssm='git stash push -u -m'
 alias ssp='git stash pop'
+alias sss='git stash show'
 alias  tg='git tag'
 
 alias  cpc='com && plp && co-'
