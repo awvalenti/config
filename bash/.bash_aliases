@@ -63,6 +63,6 @@ alias sss='git stash show'
 alias  tg='git tag'
 
 alias  cpc='com && plp && co-'
-alias scpcp='git stash push -u && (com && plp && co-; ssp)'
+alias scpcp='ad. && ssum comando-scpcp && (com && plp && co-; ssp)'
 
 alias cdp='cd /home/andre/desenvolvimento/projetos/fugaescorregadia'
