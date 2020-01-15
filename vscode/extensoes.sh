@@ -1,9 +1,10 @@
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension waderyan.gitblame
+code --install-extension adammaras.overtype
 code --install-extension cmstead.jsrefactor
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension editorconfig.editorconfig
 code --install-extension gajesh1.react-js-snippet
 code --install-extension pkief.material-icon-theme
-code --install-extension adammaras.overtype
-code --install-extension syler.sass-indented
 code --install-extension sibiraj-s.vscode-scss-formatter
 code --install-extension shinnn.stylelint
+code --install-extension syler.sass-indented
+code --install-extension waderyan.gitblame
