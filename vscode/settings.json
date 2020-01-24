@@ -1,7 +1,7 @@
 {
     "telemetry.enableTelemetry": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
@@ -14,13 +14,17 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.cursorBlinking": "smooth",
     "explorer.confirmDragAndDrop": false,
-    "editor.fontSize": 18,
     "editor.multiCursorModifier": "ctrlCmd",
     "workbench.editor.enablePreview": false,
     "breadcrumbs.enabled": true,
     "editor.minimap.enabled": true,
     "editor.formatOnPaste": true,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "clojure.leinPath": "C:\\desenvolvimento\\ferramentas\\clojure\\leiningen\\lein.bat",
-    "clojure.toolsJar": "C:\\desenvolvimento\\ferramentas\\java\\jdk1.8.0_152\\lib\\tools.jar"
+    "clojure.toolsJar": "C:\\desenvolvimento\\ferramentas\\java\\jdk1.8.0_152\\lib\\tools.jar",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "git.autofetch": true,
+    "editor.wordWrapColumn": 100,
+    "workbench.colorTheme": "Monokai"
 }

@@ -1,6 +1,18 @@
 Menu > Configurações do sistema >
-	Fontes >
-		(opcional, útil para tela Full HD) Fator de escalonamento do texto: 1,5
+	Seleção de fonte >
+		(opcional, útil para tela Full HD) Fator de escalonamento do texto: 1,2 ou 1,5
+
+	Temas >
+		Temas >
+			Bodas da janela:  Mint-Y --> Mint-Y-Dark
+			Controles:        Mint-Y --> Mint-Y-Dark
+			Área de Trabalho: Mint-Y --> Mint-Y-Dark (se já não estiver)
+		Configurações >
+			Opções diversas >
+				Comportamento da barra de rolagem >
+					Use barra de rolagens de substituição: DESATIVAR
+					Substituir a largura da barra de rolagem do tema atual: ATIVAR
+						Largura da barra de rolagem (px): 15
 
 	Som >
 		Sons >
@@ -15,29 +27,44 @@ Menu > Configurações do sistema >
 
 	Gerenciamento de Energia >
 		Opções de energia >
-			Quando a tampa estiver fechada >
-				Usando fonte AC: Não fazer nada
-				Usando bateria: Não fazer nada
+			Desligar a tela quando inativo por: 10 minutos
+			Suspender quando inativo por: 30 minutos
+			Quando a tampa estiver fechada: Não fazer nada
 		Opções extras >
+			Quando o botão de energia é pressionado: Desligar o computador imediatamente
 			ATIVAR Executar a ação de fechar a tampa mesmo com monitores externos ligados
             Quando a bateria estiver criticamente baixa: Desligar o computador imediatamente
-			
+
+	Janelas >
+		Alt + Tab >
+			Estilo de alternância do Alt + Tab: Pré-visualização de ícones e janelas
+			Mover janelas minimizadas até o final da alternância do Alt + Tab: ATIVAR
+
 	Mouse e touchpad >
 		Touchpad >
 			(opcional) DESATIVAR Toque para clicar
 
+	Proteção de tela >
+		Configurações da proteção de tela >
+			Atraso antes de iniciar a proteção de tela: 5 minutos
+
+	Teclado >
+		Atalhos >
+			Sistema > Atalhos de teclado > Bloquear tela >
+				Vínculo do teclado - Ctrl+Alt+L: Super+L
+
 Menu >
 	Monitor do Sistema >
 		Recursos (o simples fato de clicar já vai definir esse painel como padrão) >
-			Aumentar altura
+			Aumentar tamanho da janela
 
 Painel inferior:
-	Botão direito em Mozilla Firefox >
-		Remover
-
 	Botão direito em área vazia > Configurações do Painel >
-		Usar tamanho personalizado do painel >
-			Altura do painel: entre o meio e a ponta
+		Personalizar >
+			Altura do painel: 50 (75% da barra)
+		Aparência do painel > Zona Direita >
+			Tamanho do ícone colorido: 24px
+			Tamanho simbólico do ícone (px): 20
 
 	Botão direito no relógio > Configurar... >
 		ATIVAR Usar um formato de data personalizado
@@ -54,19 +81,24 @@ Mozilla Firefox >
 		Fechar abas
 
 Nemo (Windows + E) >
+
+	CTRL + H (exibir arquivos ocultos)
+
 	Aumentar largura do painel esquerdo (dos diretórios)
 
-	(opcional) Aumentar tamanho da janela
+	Aumentar tamanho da janela
 
 	Arrastar e soltar pastas no painel esquerdo para adicionar atalhos:
-		/tmp
-		Dropbox
-		Dropbox/IFSP
-		Dropbox/IFSP/Disciplinas/[disciplinas desejadas]
+		/mnt/ramdisk
 
 	Botão direito em qualquer diretório >
 		Abrir com > Outro aplicativo... >
-			Atom, Adicionar à lista, OK
+			(precisa mesmo?) VSCode, Adicionar à lista, OK
+
+	Editar > Preferências >
+		Barra de ferramentas >
+			ATIVAR Nova pasta
+			ATIVAR Abrir no terminal
 
 Editor de texto (xed) >
 	Editar > Preferências >
@@ -79,7 +111,12 @@ Editor de texto (xed) >
 Terminal >
 	Editar > Preferências >
 		AFAZER aumentar opacidade
-		AFAZER aumentar janela
+		Texto >
+			Aparência de texto >
+				Tamanho inicial do terminal: 120 colunas, 40 linhas
+		Cores >
+			DESATIVAR Usar cores do tema do sistema
+			Esquemas embutidos: Branco no preto
 
 Dropbox >
 	Instalar (ver outro txt)
@@ -103,5 +140,3 @@ GIMP >
 
 WPS Office (abrir qualquer documento, por exemplo) >
 	I Accept
-
-

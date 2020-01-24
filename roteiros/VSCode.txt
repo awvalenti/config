@@ -6,3 +6,6 @@ Windows + X, A (Prompt de Comando Admin) >
   REM del settings.json
 
   mklink settings.json C:\Users\andre\Dropbox\Configurações\VSCode\settings.json
+
+Linux >
+	(echo 'fs.inotify.max_user_watches=262144' | sudo tee -a /etc/sysctl.conf) && sudo sysctl -p

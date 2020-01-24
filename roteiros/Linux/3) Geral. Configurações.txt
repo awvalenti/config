@@ -21,14 +21,14 @@ Tela de boas vindas >
 Criar diretórios:
 	Terminal >
 		cd && mkdir desenvolvimento && cd desenvolvimento && mkdir -p projetos ferramentas/java
-	
+
 Gerenciador de Atualizações (o escudo com exclamação azul, no canto inferior direito) >
 	Deixe-me revisar atualizações sensíveis
 	OK
 	Você quer mudar para um mirror local? >
 		Tive problemas ao fazer isso uma vez. Na hora de instalar alguns pacotes,
 		corrompeu alguma coisa (baixou pela metade) e eu só consegui reverter
-		voltando para os espelhos oficiais remotosSe quiser arriscar
+		voltando para os espelhos oficiais remotos. Se quiser arriscar
 		OK
 		(vai abrir automaticamente uma janela Fontes de Aplicativos) >
 			Espelhos > Início e Base > escolher (provavelmente, UFPR)
@@ -37,4 +37,3 @@ Gerenciador de Atualizações (o escudo com exclamação azul, no canto inferior dir
 			Fechar janela
 	Selecionar Tudo
 	Instalar Atualizações
-
